@@ -25,7 +25,7 @@ function show_error_and_exit(){
 }
 
 function advance_interval_id(){
-  if(++current_interval_id == intervals.length)
+  if(++current_interval_id === intervals.length)
     current_interval_id = 0;
 }
 
